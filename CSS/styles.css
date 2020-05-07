@@ -1,0 +1,141 @@
+/**************Tag Selectors***********************/
+body{
+    margin:0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+
+a {
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: auto 50px;
+}
+
+p{
+    color: #40514E;
+}
+
+hr{
+    border: 9px dashed;
+    border-bottom: 0;
+    width: 5%;
+    color: #EAF6F6;
+}
+
+/**************Classes Selectors***********************/
+
+.top-container {
+    background-color: #c3edea;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position:absolute;
+    top:15%;
+    right:30%;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:25%;
+    bottom:45%;
+}
+
+.profile{
+    margin: 100px auto;
+    width: 50%;
+}
+.avatar-img{
+    float: right;
+    width: 25%;
+}
+
+.middle-container{
+   background-color: #fffdf9;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto ;
+    text-align: left;
+    line-height: 2;
+}
+.cycling-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.troublohoot-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me{
+margin: 0 auto 20px auto;
+line-height: 2;
+}
+.contact-description{
+    margin-bottom: 50px;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #00a1ab;
+    text-decoration: none ;
+}
+
+.styled:hover {
+    background-color: #66BFBF;
+}
+
+.styled:active {
+    box-shadow: #66BFBF;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px 0 10px 0;
+    position: relative;
+    text-align: center;
+}
+ 
+.facebook-div{
+    display: inline-block;
+    position:relative;
+}
+.linkedin-div{
+    display: inline-block;
+}
+.twitter-div{
+    display: inline-block;
+}
+.copyright-text{
+    color:#EAF6F6;
+}
